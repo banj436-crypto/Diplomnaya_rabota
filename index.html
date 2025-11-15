@@ -2,42 +2,81 @@
 <html lang="ru">
 
 <head>
+	<img src="cap.png"
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Дипломная работа</title>
 	<link rel="stylesheet" href="style.css">
-	<img src="cap.png"
 </head>
 
 <body>
-	<div class="container">
-		<header>
-			<h1>Красивая карточка</h1>
-		<main>
-				<h2>Она прикольно раскрашена в зеленый цвет</h2>
-				<h3>Градиент</h3>
-				<p>Короч, в левом верхнем углу темно зеленый цвет, который плавно переходит к почти салатовому
-        , и уже к нижниму правому углу мы наблюдаем красивый светло зеленый оттенок
-        </p>
-				<h2>Нижняя часть</h2>
-				<p>Снизу есть тоже должны быть надписи</p>
-			<p><h1> Список </h1>
-<h2><p>Месяцы 2006 года</p></h2>
-<li>Январь
-<li>Февраль
-<li>март
-<li>Апрель
-<li>Май
-<li>Июнь
-<li>Июль
-<li>Август
-<li>Сентябрь
-<li>Октябрь
-<li>Ноябрь
-<li>Декабрь
-			</section>
-		</main>
-		<footer>
-			<p>@Подвал 2025</p>
-		</footer>
+	<div class="universe" id="universe">
+		<!-- Слои звезд -->
+		<div class="star-layer star-layer-1" id="stars1"></div>
+		<div class="star-layer star-layer-2" id="stars2"></div>
+		<div class="star-layer star-layer-3" id="stars3"></div>
+
+		<!-- Небесные тела -->
+		<div class="planet gas-giant" id="gasGiant"></div>
+		<div class="planet earth-like" id="earthLike"></div>
+		<div class="planet rocky-planet" id="rockyPlanet"></div>
+
+		<!-- Астероидное поле -->
+		<div class="asteroid-field" id="asteroidField"></div>
+
+		<!-- Черная дыра -->
+		<div class="black-hole"></div>
+
+		<!-- Космическая станция -->
+		<div class="space-station">
+			<div class="station-ring"></div>
+			<div class="station-core"></div>
+		</div>
+
+		<!-- Галактика -->
+		<div class="galaxy">
+			<div class="galaxy-arms"></div>
+		</div>
+
+		<!-- Пульсар -->
+		<div class="pulsar"></div>
+
+		<!-- Заголовок -->
+		<div class="hero">
+			<h1>Дипломная работа</h1>
+			<p>Прокрутите вниз</p>
+		</div>
+
+		<div class="scroll-indicator">↓</div>
 	</div>
+
+	<div class="content">
+		<div class="section">
+			<h2>Это Текст</h2>
+			<p>Меня зовут Максим</p>
+			<p></p>
+		</div>
+
+		<div class="section">
+			<h2>Тут тоже текст</h2>
+			<p>мне 12 лет</p>
+			<p>Я учусь в шестом классе на момент ноября 2025 года</p>
+		</div>
+
+		<div class="section">
+			<h2>Еще текст</h2>
+			<p>Мне нравится спать, играть в пк и спать</p>
+			
+		</div>
+
+		<div class="section">
+			<h2>Последниц текст</h2>
+			<p>Подвал сайта</p>
+
+		</div>
+	</div>
+
+	<script src="script.js"></script>
 </body>
+
 </html>
